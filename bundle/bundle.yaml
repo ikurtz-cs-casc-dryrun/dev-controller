@@ -4,5 +4,7 @@ id: "ikurtz-cs-casc-dryrun-dev-controller"
 description: "CloudBees CI configuration bundle for the ikurtz-cs-casc-dryrun dev-controller Controller"
 availabilityPattern: "cloudbees-ci-casc-workshop/ikurtz-cs-casc-dryrun/dev-controller"
 parent: "base"
+jcasc:
+  - "jcasc/"
 rbac:
   - "rbac.yaml"
