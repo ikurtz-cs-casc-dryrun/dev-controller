@@ -1,0 +1,4 @@
+variables:
+- team: ikurtz-cs-casc-dryrun
+- admin-user: ikurtz-admin
+- manager-user: ikurtz
