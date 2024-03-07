@@ -1,8 +1,10 @@
 apiVersion: "1"
-version: "2"
+version: "3"
 id: "ikurtz-cs-casc-dryrun-dev-controller"
 description: "CloudBees CI configuration bundle for the ikurtz-cs-casc-dryrun dev-controller Controller"
 availabilityPattern: "cloudbees-ci-casc-workshop/ikurtz-cs-casc-dryrun/dev-controller"
 parent: "base"
 rbac:
   - "rbac.yaml"
+items:
+  - "folder.yaml"
